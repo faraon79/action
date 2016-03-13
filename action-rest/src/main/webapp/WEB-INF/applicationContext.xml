@@ -7,13 +7,10 @@
 
     <import resource="classpath:META-INF/click/tomasz/definition-context.xml"/>
 
-    <bean id="definitionRest" class="click.tomasz.service.DefinitionService" scope="prototype">
-    </bean>
-
     <bean id="jsonProvider" class="org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider"/>
 
     <jaxrs:server id="projectRest" address="/service"
-                  beanNames="definitionRest">
+                  beanNames="definitionService">
         <jaxrs:providers>
             <ref bean="jsonProvider"/>
         </jaxrs:providers>

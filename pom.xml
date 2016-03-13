@@ -10,6 +10,7 @@
     <modules>
         <module>bpmn2-model</module>
         <module>action-rest</module>
+        <module>runner</module>
     </modules>
 
     <properties>
