@@ -2,28 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>tomasz.click</groupId>
+    <groupId>click.tomasz</groupId>
     <artifactId>action</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>bpmn2-model</module>
+        <module>action-core</module>
         <module>action-rest</module>
+        <module>bpmn2-model</module>
         <module>runner</module>
     </modules>
-
-    <properties>
-        <cxf.version>3.1.5</cxf.version>
-        <slf4j.version>1.7.18</slf4j.version>
-        <spring.version>4.2.5.RELEASE</spring.version>
-        <jackson.version>1.9.13</jackson.version>
-        <javax.ws.rs-api.version>2.0</javax.ws.rs-api.version>
-    </properties>
-
-    <dependencies>
-
-    </dependencies>
 
     <build>
         <pluginManagement>
