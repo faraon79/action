@@ -1,4 +1,4 @@
-package click.tomasz.logger;
+package click.tomasz.rest.logger;
 
 public class Messages {
 
